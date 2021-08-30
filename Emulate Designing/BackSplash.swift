@@ -12,8 +12,10 @@ struct BackSplash: View {
         Rectangle()
             .fill(LinearGradient(gradient: Gradient(colors: [Color("lightGreen"), Color("lightGreen")]), startPoint: .top, endPoint: .bottom))
         .edgesIgnoringSafeArea(.all)
+        
     }
 }
+
 
 struct BackSplash_Previews: PreviewProvider {
     static var previews: some View {

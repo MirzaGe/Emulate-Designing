@@ -12,6 +12,7 @@ struct ContentView: View {
         ZStack {
             BackSplash()
             TopView()
+            TopCard()
         }
     }
 }

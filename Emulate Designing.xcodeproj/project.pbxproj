@@ -15,6 +15,7 @@
 		4472038926DC74AD0061A209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4472038726DC74AD0061A209 /* LaunchScreen.storyboard */; };
 		4472039826DCAB120061A209 /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472039726DCAB120061A209 /* BackSplash.swift */; };
 		4472039F26DCE3430061A209 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472039E26DCE3430061A209 /* TopView.swift */; };
+		447203A226DD55B20061A209 /* TopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447203A126DD55B20061A209 /* TopCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4472038A26DC74AD0061A209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4472039726DCAB120061A209 /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 		4472039E26DCE3430061A209 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		447203A126DD55B20061A209 /* TopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				4472039726DCAB120061A209 /* BackSplash.swift */,
 				4472039E26DCE3430061A209 /* TopView.swift */,
+				447203A126DD55B20061A209 /* TopCard.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				4472037D26DC74A90061A209 /* AppDelegate.swift in Sources */,
 				4472039F26DCE3430061A209 /* TopView.swift in Sources */,
 				4472037F26DC74A90061A209 /* SceneDelegate.swift in Sources */,
+				447203A226DD55B20061A209 /* TopCard.swift in Sources */,
 				4472038126DC74A90061A209 /* ContentView.swift in Sources */,
 				4472039826DCAB120061A209 /* BackSplash.swift in Sources */,
 			);
