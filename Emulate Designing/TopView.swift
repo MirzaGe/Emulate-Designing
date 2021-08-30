@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TopView.swift
 //  Emulate Designing
 //
 //  Created by sherry on 30/08/2021.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TopView: View {
     var body: some View {
-        ZStack {
-            BackSplash()
+        ZStack(alignment: .leading){
+            
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TopView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TopView()
     }
 }
