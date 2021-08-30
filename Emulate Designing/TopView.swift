@@ -10,7 +10,14 @@ import SwiftUI
 struct TopView: View {
     var body: some View {
         ZStack(alignment: .leading){
-            
+            HStack {
+                Image("dropsIcon")
+                    .resizable()
+                    .frame(width: 20, height: 20)
+                    .background(RoundedRectangle(cornerRadius: 12)
+                    .frame(width: 40, height: 60)
+                    .foregroundColor(Color("darkGreen")))
+            }
         }
     }
 }
