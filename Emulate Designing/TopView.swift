@@ -29,7 +29,7 @@ struct TopView: View {
                 Spacer() // about in the middle starbux bcux of zstack
                 
                         
-            }.padding(.leading, 90)/* from left to right* more to the left*/
+            }.padding(.leading, 20)/* from left to right* more to the left*/
                 .padding(.top, 12)
             
         }
