@@ -10,8 +10,8 @@ import SwiftUI
 struct BackSplash: View {
     var body: some View {
         Rectangle()
-            .fill(LinearGradient(gradient: Gradient(colors: [Color("lightGreen"), Color("lightGreen")]), startPoint: .top, endPoint: .bottom))
-        .edgesIgnoringSafeArea(.all)
+            .fill(LinearGradient(gradient:/*gradient obj passing*/ Gradient(colors: [Color("lightGreen"), Color("lightGreen")]), startPoint: .top, endPoint: .bottom))
+        .edgesIgnoringSafeArea(.all)/*ignoring safe area*/
         
     }
 }
