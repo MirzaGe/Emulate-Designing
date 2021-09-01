@@ -25,11 +25,11 @@ struct TopView: View {
                     .font(.headline)
                     .fontWeight(.heavy)
                     .bold()
-                    .padding(.trailing, 50)//from the right to left more to right
+                    .padding(.trailing, 50)//from the right edge to left more to left
                 Spacer() // about in the middle starbux bcux of zstack
                 
                         
-            }.padding(.leading, 20)/* from left to right* more to the left*/
+            }.padding(.leading, 20)/* from leftegde to right more to the -> right*/
                 .padding(.top, 12)
             
         }
