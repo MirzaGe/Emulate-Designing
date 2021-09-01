@@ -31,16 +31,16 @@ struct TopCard: View {
                         HStack {
                             ForEach(0..<5) /*Range of type int */{ items in
                                 ZStack {
-                                    RoundedRectangle(cornerRadius: 30)
-                                        .frame(width: 90, height: 90)
-                                        .foregroundColor(Color("cremeDarker"))
-                                    Image("bready")
-                                        .resizable()
-                                        .frame(width: 70, height: 70)
-                                        .clipShape(Circle())
-                                        .clipShape(Circle())
-                                    .overlay(Circle().stroke(Color("cremeWhite"), lineWidth: 1))
-                                }
+                                                                    RoundedRectangle(cornerRadius: 30)
+                                                                       .frame(width: 90, height: 90)
+                                                                       .foregroundColor(Color("cremeDarker"))
+                               
+                                                                   Image("bready")
+                                                                       .resizable()
+                                                                       .frame(width: 70, height: 70)
+                                                                       .clipShape(Circle())
+                                                                           .overlay(Circle().stroke(Color("cremeWhite"), lineWidth: 1))
+                                                               }
                         }
                     
                         
